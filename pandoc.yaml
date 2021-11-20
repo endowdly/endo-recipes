@@ -1,0 +1,17 @@
+# Processor options for Pandoc
+
+from: markdown
+to: html
+output-file: recipes.html
+standalone: false
+self-contained: true
+table-of-contents: true
+toc-depth: 1
+metadata:
+  title: Ryan's Recipes
+  keywords: [cooking, recipes]
+css: 
+- recipe.css
+
+
+

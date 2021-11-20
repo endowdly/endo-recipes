@@ -1,0 +1,7 @@
+# Markdownlint Rules
+
+# Serving annotations get confused for headings
+MD036: false
+
+MD013:
+  line_length: 115
