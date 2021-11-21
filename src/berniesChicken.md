@@ -34,8 +34,8 @@ Prep
 4. In a medium mixing bowl, add vinegar, sugar, Worcestershire sauce, and salt.
 5. Prepare a charcoal grill.
 Lightly oil the grilling grate.
-Place your hand 1 foot above the coals.
-Palm down, you should aim to keep your hand in the heat for 8-12 seconds.
+Place your hand 1 foot above the coals, palm down.
+You should aim to keep your hand in the heat for 8-12 seconds.
 Maintain this temperature throughout the cook;
 set the grate to this height.
 

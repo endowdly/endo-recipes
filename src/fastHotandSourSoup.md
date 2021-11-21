@@ -28,12 +28,13 @@ Steps
 Add garlic and ginger.
 Cook, stirring often, until softened and very fragrant.
 Add 3 cups water _or_ chicken broth.
-Combine miso and 2 tablespoons of water in a small bowl and mix.
+
+2. Combine miso and 2 tablespoons of water in a small bowl and mix.
 Add miso, soy sauce, vinegar, sesame oil and pepper.
 Heat to medium-high and simmer.
 Keep pot at simmer and cook until flavors come together.
 
-2. Add mushrooms and peas and cook until crisp-tender.
+3. Add mushrooms and peas and cook until crisp-tender.
 Gently stir in egg and cook until just set, about 30 seconds.
 Season with salt.
 
