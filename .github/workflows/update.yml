@@ -13,3 +13,7 @@ jobs:
       - name: convert md to html
         run: |
           find ./src -iname '*.md' -type f -exec sh -c 'pandoc -d ./pandoc.yaml ${0}' {} \;
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: recipes.html
