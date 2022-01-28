@@ -4,16 +4,16 @@ on: push
 
 jobs:
   convert_with_pandoc:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     container:
       image: docker://pandoc/core:2.10
-      options: --entrypoint=sh
+      options: --entrypoint=pwsh
     steps:
       - uses: actions/checkout@v2
       - name: convert md to html
         shell: pwsh 
         run: |
-          Get-ChildItem src/*.md |
+          Get-ChildItem ./src/*.md |
               ForEach-Object { "./src/$_" } |
               Set-Variable files
               
