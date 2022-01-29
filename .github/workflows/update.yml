@@ -5,14 +5,27 @@ on: push
 jobs:
   convert_with_pandoc:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: pwsh
     container:
       image: docker://pandoc/core:latest
-      options: --entrypoint=pwsh
+      options: --entrypoint=sh
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # - name: Get Files
+      
+
       - name: convert md to html
-        shell: pwsh 
-        run: ./build.ps1
+        # run: ./build.ps1
+        run: | 
+          Get-ChildItem src/*.md |
+              ForEach-Object { "./src/$_" } |
+              Set-Variable files
+          
+          pandoc -d ./pandoc.yaml ($files) 
 
       - name: Commit files
         id: commit
@@ -22,15 +35,13 @@ jobs:
           git add --all
 
           if ($null -eq $(git status --porcelain)) {
-            "::set-output name=push::false"
+              "::set-output name=push::false"
           }
           else {
-            git commit -m "Update Recipes" -a
+              git commit -m "Update Recipes" -a
 
-            "::set-output name=push::true"
-          
+              "::set-output name=push::true" 
           } 
-        shell: pwsh
 
       - name: Push changes
         if: steps.commit.outputs.push == 'true'
