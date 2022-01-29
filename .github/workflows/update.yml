@@ -17,16 +17,6 @@ jobs:
         with: 
           args: -d ./pandoc.yaml ${{ steps.files.outputs.files }}
 
-        # run: ./build.ps1
-        # run: | 
-        #   Get-ChildItem src/*.md |
-        #       ForEach-Object { "./src/$_" } |
-        #       Set-Variable files
-          
-        #   pandoc -d ./pandoc.yaml ($files) 
-
-        # run: pandoc -d ./pandoc.yaml ./src/*.md
-
       - name: Commit Files
         id: commit
         shell: pwsh
@@ -34,14 +24,7 @@ jobs:
           git config --local user.email "endowdly@gmail.com"
           git config --local user.name "endowdly"
           git add --all
-
-          # if [-z "$(git status --porcelain)"]; then 
-          #     echo "::set-output name=push::false"
-          # else
-          #     echo "::set-output name=push::true" 
-              
-          # fi 
-
+ 
           if ([string]::IsNullOrWhiteSpace -eq $(git status --porcelain)) {
               "::set-output name=push::false"
           }
