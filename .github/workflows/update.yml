@@ -5,45 +5,48 @@ on: push
 jobs:
   convert_with_pandoc:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: pwsh
-    container:
-      image: docker://pandoc/core:latest
-      options: --entrypoint=sh
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2 
 
-      # - name: Get Files
-      
-
-      - name: convert md to html
+      - name: Convert Md to Html
+        uses: docker://pandoc/core:2.10
+        with: 
+          args: -d ./pandoc.yaml ./src/*.md
         # run: ./build.ps1
-        run: | 
-          Get-ChildItem src/*.md |
-              ForEach-Object { "./src/$_" } |
-              Set-Variable files
+        # run: | 
+        #   Get-ChildItem src/*.md |
+        #       ForEach-Object { "./src/$_" } |
+        #       Set-Variable files
           
-          pandoc -d ./pandoc.yaml ($files) 
+        #   pandoc -d ./pandoc.yaml ($files) 
 
-      - name: Commit files
+        # run: pandoc -d ./pandoc.yaml ./src/*.md
+
+      - name: Commit Files
         id: commit
         run: |
           git config --local user.email "endowdly@gmail.com"
           git config --local user.name "endowdly"
           git add --all
 
-          if ($null -eq $(git status --porcelain)) {
-              "::set-output name=push::false"
-          }
-          else {
-              git commit -m "Update Recipes" -a
+          if [ -z $(git status --porcelain) ]; then 
+              echo "::set-output name=push::false"
+          else
+              echo "::set-output name=push::true" 
+              
+          fi 
 
-              "::set-output name=push::true" 
-          } 
+        # run:
+          # if ($null -eq $(git status --porcelain)) {
+          #     "::set-output name=push::false"
+          # }
+          # else {
+          #     git commit -m "Update Recipes" -a
 
-      - name: Push changes
+          #     "::set-output name=push::true" 
+          # } 
+
+      - name: Push Changes
         if: steps.commit.outputs.push == 'true'
         uses: ad-m/github-push-action@master
         with:
