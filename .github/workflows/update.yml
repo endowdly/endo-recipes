@@ -8,10 +8,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2 
 
+      - name: Get Files
+        id: files
+        run: echo "::set-output name=files::$(printf '"%s" ' ./src/*.md)" 
+ 
       - name: Convert Md to Html
         uses: docker://pandoc/core:2.10
         with: 
-          args: -d ./pandoc.yaml ./src/*.md
+          args: -d ./pandoc.yaml ${{ steps.files.outputs.files }}
+
         # run: ./build.ps1
         # run: | 
         #   Get-ChildItem src/*.md |
