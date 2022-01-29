@@ -29,28 +29,27 @@ jobs:
 
       - name: Commit Files
         id: commit
-        shell: bash
+        shell: pwsh
         run: |
           git config --local user.email "endowdly@gmail.com"
           git config --local user.name "endowdly"
           git add --all
 
-          if [-z "$(git status --porcelain)"]; then 
-              echo "::set-output name=push::false"
-          else
-              echo "::set-output name=push::true" 
+          # if [-z "$(git status --porcelain)"]; then 
+          #     echo "::set-output name=push::false"
+          # else
+          #     echo "::set-output name=push::true" 
               
-          fi 
+          # fi 
 
-        # run:
-          # if ($null -eq $(git status --porcelain)) {
-          #     "::set-output name=push::false"
-          # }
-          # else {
-          #     git commit -m "Update Recipes" -a
+          if ([string]::IsNullOrWhiteSpace -eq $(git status --porcelain)) {
+              "::set-output name=push::false"
+          }
+          else {
+              git commit --message="Update Recipes" --all
 
-          #     "::set-output name=push::true" 
-          # } 
+              "::set-output name=push::true" 
+          } 
 
       - name: Push Changes
         if: steps.commit.outputs.push == 'true'
