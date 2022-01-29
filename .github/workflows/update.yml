@@ -29,12 +29,13 @@ jobs:
 
       - name: Commit Files
         id: commit
+        shell: bash
         run: |
           git config --local user.email "endowdly@gmail.com"
           git config --local user.name "endowdly"
           git add --all
 
-          if [ -z $(git status --porcelain) ]; then 
+          if [-z "$(git status --porcelain)"]; then 
               echo "::set-output name=push::false"
           else
               echo "::set-output name=push::true" 
@@ -56,3 +57,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
