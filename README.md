@@ -10,7 +10,7 @@ Recipe cards are stored in `src` as markdown files.
 
 When a new markdown file is added and pushed to the repo, Github Actions will build a new page.
 The recipe page should be up-to-date!
-The recipes page is built and stored [here](https://endowdly.github.io/endo-recipes/recipes/html).
+The recipes page is built and stored [here](https://endowdly.github.io/endo-recipes/recipes.html).
 
 ## Manual Build
 
