@@ -9,9 +9,9 @@ _4 servings_
 Parts
 -----
 
-- 750 mL red wine
+- 750 mL semi-dry red wine
 - 2½ lb boneless beef chuck or bottom roast
-- 1 teaspoon black pepper
+- 1 teaspoon ground black pepper
 - 1 tablespoon kosher salt
 - ½ lb bacon
 - 3 medium red onions
@@ -20,6 +20,7 @@ Parts
 - 4 large sprigs thyme
 - 2 tablespoons white miso paste
 - 2 tablespoons all-purpose flour
+- some crusty bread
 
 Prep
 ----
@@ -31,22 +32,22 @@ Prep
 3. Cut the roast into 2 inch cubes.
 Put beef in a large bowl and season with salt and pepper.
 
-4. Cut bacon crosswise into 1 inch pieces.
-
-5. Peel onions and cut into fourths.
+4. Peel onions and quarter.
 Put in medium bowl.
 
-6. Clean carrots and cut in half.
+5. Clean carrots and halve lengthwise.
 Put in medium bowl.
 
-7. Peel all garlic. Smash all garlic and roughly chop.
+6. Peel all garlic. Smash all garlic and roughly chop.
 Add 7 cloves to carrots.
 Keep 1 clove aside.
+
+7. Cut bacon crosswise into 1 inch pieces.
 
 Cook
 ----
 
-1. Heat dutch oven over medium.
+1. Heat dutch oven over medium heat.
 Cook bacon, stirring often until crisp.
 Keep bacon fat in pot, move bacon to a large bowl.
 

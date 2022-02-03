@@ -6,17 +6,18 @@ This is my Dad's Michigan Sauce.
 My dad says this recipe is from Otis's, the original sellers in Plattsburgh.
 It could be as close to the original 'sauced' variation of Michigan sauce as you can get.
 
-I assure you, they are a serious cultural matter and I will fight you if you do not steam them or use red hot franks (I prefer Glazier's of Malone).
+I assure you, they are a serious cultural matter and I will fight you if you do not steam them or use red hot franks.
+I prefer Glazier's of Malone, New York.
 
 _Makes enough sauce for a dozen hot dogs_
 
 Parts
 -----
 
-- 2 lb ground beef, preferably chuck, 85/15
+- 2 lb ground beef, preferably 85/15 chuck
 - 2 cup yellow onion _or_ white onion, chopped _or_ minced
-- 1 cup white onion, diced small
-- 2 teaspoon cumin, ground
+- 1 cup white onion, small diced
+- 2 teaspoon ground cumin
 - 2 teaspoon chili powder
 - 2 teaspoon cayenne powder
 - 2 tablespoons yellow mustard
@@ -35,13 +36,12 @@ Strain the oil into a small bowl.
 Put the onions in a medium bowl.
 
 2. Take the skillet off the heat.
-Set heat to low.
 Add the ground beef to the skillet and let rest until the sizzling stops.
-Return the skillet to heat.
+Heat the skillet to low heat.
 Brown the meat slowly, pulling it apart to ensure even cooking.
 Season with salt and pepper.
 
-3. When meat is evenly browned, cook off excess water.
+3. Boil off excess water when meat is evenly browned.
 Stew meat slowly in its fat until meat is very tender.
 Add oil from onions if the meat begins to dry.
 
@@ -49,10 +49,9 @@ Add oil from onions if the meat begins to dry.
 Add seasoning to taste.
 
 5. Stir in mustard and ketchup and tomato paste.
-Mix well and continue to stew, stirring occasionally.
-When the vinegar has cooked out of the mustard, add onions to meat.
-Mix sauce well.
-Remove sauce from heat when well blended.
+Mix well and continue to stew, stirring now and then.
+Add onions to meat when the vinegar has cooked out of the mustard.
+Mix sauce well then take off heat.
 
 Serve
 -----
@@ -60,6 +59,6 @@ Serve
 Boil hot dogs and steam half-stale, top-loading buns.
 Add hot dog to bun and top with sauce.
 
-Serve diced onions under the sauce (buried), on top (with), or without.
+Serve diced white onions under the sauce (buried), on top (with), or without.
 Top with yellow mustard.
-Ketchup is forbidden.
+**Ketchup is forbidden**.

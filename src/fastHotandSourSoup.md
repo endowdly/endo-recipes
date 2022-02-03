@@ -9,34 +9,46 @@ _4 servings_
 Parts
 -----
 
-- 2 tablespoons extra-virgin olive oil or vegetable oil
-- 6 garlic cloves, thinly sliced
-- 1 2” piece ginger, peeled, finely chopped
+- 2 tablespoons extra-virgin olive oil _or_ canola oil
+- 6 garlic cloves
+- 1 2 inch piece ginger
 - 4 tablespoons miso
 - 2 tablespoons soy sauce
 - 4 teaspoons unseasoned rice vinegar
 - 1 teaspoon toasted sesame oil
-- 1 teaspoon Aleppo-style pepper _or_ ½ teaspoons crushed red pepper flakes
-- ½ cup shiitake _or_ crimini mushrooms, trimmed, thinly sliced
+- 1 teaspoon Aleppo pepper _or_ ½ teaspoons crushed red pepper flakes
+- ½ cup shiitake _or_ crimini mushrooms
 - 2 cups peas
-- 2 large egg, lightly beaten
+- 2 large eggs
+
+Prep
+----
+
+1. Slice the garlic cloves thinly.
+
+2. Peel the ginger, then chop or grate finely.
+
+3. Slice the mushrooms thinly.
+
+4. Beat the eggs lightly.
 
 Steps
 -----
 
-1. Heat olive oil in a medium saucepan over medium.
+1. Heat olive oil in a medium pot over medium heat.
 Add garlic and ginger.
 Cook, stirring often, until softened and very fragrant.
-Add 3 cups water _or_ chicken broth.
+Add 3 cups water _or_ broth.
 
-2. Combine miso and 2 tablespoons of water in a small bowl and mix.
-Add miso, soy sauce, vinegar, sesame oil and pepper.
+2. Mix miso and 2 tablespoons of water in a small bowl.
+
+3. Add miso, soy sauce, vinegar, sesame oil and pepper to pot.
 Heat to medium-high and simmer.
 Keep pot at simmer and cook until flavors come together.
 
-3. Add mushrooms and peas and cook until crisp-tender.
-Gently stir in egg and cook until just set, about 30 seconds.
-Season with salt.
+4. Add mushrooms and peas and cook until crisp-tender.
+Stir in egg gently and cook until just set, about 30 seconds.
+Season with salt and turn off heat.
 
 Serve
 -----
