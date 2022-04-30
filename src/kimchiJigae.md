@@ -82,7 +82,7 @@ Sprinkle salt, sugar, and pepper flakes evenly on top.
 Put the pepper paste on top.
 Drizzle the sesame oil evenly over everything in the pan.
 2. Carefully pour the anchovy stock into the pan and fill just below halfway.
-3. Cover and cook for 10 minutes over medium high heat or until the port is cooked through (use feeling).
+3. Cover and cook for 10 minutes over medium high heat or until the pork is cooked through (use feeling).
 4. Open and mix the stew. Lay the tofu on top.
 5. Cover and cook another 10 to 15 minutes until stew is reduced and well combined.
 6. Remove sexy scallions from water and pat dry.
